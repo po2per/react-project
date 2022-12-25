@@ -47,16 +47,18 @@ body {
     margin: 0 auto;
 }
 
-h1,
+
 h2,
 h3,
 h4,
 h5 {
     font-weight: 500;
+    font-size: 1.1rem;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-weight: 500;
+    font-size: 3rem;
 }
 
 section {
@@ -129,7 +131,7 @@ img {
 
 /* =================== MEDIA QUERIES (SMALL DEVICES) =================== */
 
-@media screen and(max-width: 600px){
+@media all and(max-width: 600px){
     .container {
         width: var(--container-width-sm);
     }
