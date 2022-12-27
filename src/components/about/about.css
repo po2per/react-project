@@ -83,6 +83,10 @@
     }
 }
 
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) =================== */
+
+
 @media all and (max-width: 600px){
     .about__me {
         width: 65%;
