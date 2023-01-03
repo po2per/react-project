@@ -101,6 +101,7 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    font-weight: 500;
 }
 
 .btn:hover {
@@ -112,6 +113,7 @@ a:hover {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
+    font-weight: 500;
 }
 
 img {
@@ -122,7 +124,7 @@ img {
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) =================== */
 
-@media screen and(max-width: 1024px){
+@media all and (max-width: 1024px){
     .container {
         width: var(--container-width-md);
     }

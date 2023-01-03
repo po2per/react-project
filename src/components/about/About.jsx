@@ -8,8 +8,8 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To know</h5>
-      <h2>About Me</h2>
+      <h5>Узнать</h5>
+      <h2>О Школе</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,28 +21,28 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ years</small>
+              <h5>Опыт</h5>
+              <small>2+ года</small>
             </article>
 
             <article className="about__card">
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Ученики</h5>
+              <small>30+ По Всему Миру</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className='about__icon'/>
-              <h5>Prjects</h5>
-              <small>80+ Complited</small>
+              <h5>Пректы</h5>
+              <small>15+ Завершенных</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ex architecto distinctio alias esse praesentium quis enim quia consequatur deleniti eligendi illo. Placeat molestias dicta voluptatibus animi cum praesentium est.
+            The Goody IT School - это онлайн школа, для всех возрастов! Благодаря уникальной учебной программе и индивидуальному подходу к каждому ченику, наши преподователи привьют желание развиваться, стремиться к новым знаниям и никогда не отчаиваться на своем пути. Мы поможем вам выбрать наиболее подходящее и увлекательное направление, ознакомим с самой актуальной информацией и на протяжении всего пути будем поддерживать связь и делиться опытом. Наши ученики получают поддержку и консультации даже после окончания обучения. Ведь нам важно, чтобы вы не останавливались на достигнутом и всегда шли к своей цели. Первое занятие совершенно бесплатное, мы подберем наиболее удобное для вас время, будем рады вас видеть!
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Записаться</a>
 
 
         </div>

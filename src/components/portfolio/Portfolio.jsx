@@ -4,51 +4,51 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/portfolio5.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'test title one',
-    github: "https://github.com/",
-    demo : "https://dribbble.com/"
+    title: 'C++ Начальный',
+    github: "#contact",
+    demo : "#"
   },
   {
     id: 2,
     image: IMG2,
-    title: 'test title two',
-    github: "https://github.com/",
-    demo : "https://dribbble.com/"
+    title: 'C++ Продвинутый',
+    github: "#contact",
+    demo : "#"
   },
   {
     id: 3,
     image: IMG3,
-    title: 'test title three',
-    github: "https://github.com/",
-    demo : "https://dribbble.com/"
+    title: 'C# Разработка приложений',
+    github: "#contact",
+    demo : "#"
   },
   {
     id: 4,
     image: IMG4,
-    title: 'test title four',
-    github: "https://github.com/",
-    demo : "https://dribbble.com/"
+    title: 'Python разработка приложений',
+    github: "#contact",
+    demo : "#"
   },
   {
     id: 5,
     image: IMG5,
-    title: 'test title five',
-    github: "https://github.com/",
-    demo : "https://dribbble.com/"
+    title: 'Web разработка',
+    github: "#contact",
+    demo : "#"
   },
   {
     id: 6,
     image: IMG6,
-    title: 'test title six',
-    github: "https://github.com/",
-    demo : "https://dribbble.com/"
+    title: 'Unreal Engine 5 создание 2D платформера',
+    github: "#contact",
+    demo : "#"
   }
 
 ]
@@ -56,8 +56,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Подробнее</h5>
+      <h2>О курсе</h2>
 
       <div className="container portfolio__container">
         {
@@ -71,8 +71,8 @@ const Portfolio = () => {
                 {title}
               </h3>
               <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={github} className='btn' >Записаться</a>
+                <a href={demo} className='btn btn-primary' target='_blank'>О курсе</a>
               </div>
             </article>
             )
